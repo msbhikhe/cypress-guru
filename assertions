@@ -1,0 +1,6 @@
+// Text assertion
+
+cy(selector).should('have.text', 'Cypress is the best');
+
+cy(selector).should('include.text', 'Cypress');
+
